@@ -1,9 +1,0 @@
-@font-face {
-    font-family: Akanta;
-    src: url('./resources/Akanta.ttf');
-}
-
-.navbar-style {
-    font-family: Akanta;
-    font-size: 30px !important;
-}
