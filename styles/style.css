@@ -1,4 +1,8 @@
-.navbar-style {
-    font-family: Akanta;
-    font-size: 30px !important;
+body {
+    background-color: black !important;
+    color: white !important;
+}
+
+.bg-gray {
+    background-color: #111111 !important;
 }

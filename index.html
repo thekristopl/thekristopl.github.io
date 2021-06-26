@@ -9,15 +9,24 @@
 
     <!--  STYLES  -->
     <link href="styles/style.css" rel="stylesheet">
+    <link href="styles/bootstrap_overwrite.css" rel="stylesheet">
     <link href="styles/particles.css" rel="stylesheet">
     <link href="styles/fonts.css" rel="stylesheet">
+    <link href="styles/photo_gallery.css" rel="stylesheet">
 
 
     <!--  BOOTSTRAP & JQUERY  -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+          integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+            integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+            crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+            integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+            crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+            integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+            crossorigin="anonymous"></script>
 </head>
 <body>
 <!-- BACKGROUND -->
@@ -27,35 +36,80 @@
 </div>
 
 
-<!-- CONTENT -->
+<!-- NAVIGATION -->
 <header class="container">
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <a class="navbar-brand navbar-style" href="#">Krzysztof Palka</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <a class="navbar-brand logo" href="#">Krzysztof Palka</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
 
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav mr-auto">
-                <li class="nav-item active navbar-style">
-                    <a class="nav-link" href="#">Home</a>
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">About</a>
                 </li>
-                <li class="nav-item navbar-style">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Links</a>
+                </li>
+                <li class="nav-item">
                     <a class="nav-link" href="#">Sports</a>
                 </li>
-                <li class="nav-item navbar-style">
+                <li class="nav-item">
                     <a class="nav-link" href="#">Passions</a>
                 </li>
-                <li class="nav-item navbar-style">
+                <li class="nav-item">
                     <a class="nav-link" href="#">Projects</a>
                 </li>
             </ul>
+
         </div>
     </nav>
 
 
+    <section class="py-5 text-center container">
+        <div class="row py-lg-5">
+            <div class="col-lg-6 col-md-8 mx-auto">
+                <p class="fw-lighter h5">Hi, I'm</p>
+                <p class="fw-light h1">Krzysztof Pałka</p>
+                <p class="lead">Something short and leading about the collection below its contents, the creator, etc.
+                    Make it short and sweet, but not too short so folks don’t simply skip over it entirely.
+                </p>
+            </div>
+        </div>
+    </section>
 </header>
 <main>
+
+
+    <div class="container">
+
+        <div class="card bg-gray">
+            <div class="card-body">
+                <div class="gallery">
+                    <div class="box">
+                        <img src="https://source.unsplash.com/1000x800">
+                        <span>CSS</span>
+                    </div>
+                    <div class="box">
+                        <img src="https://source.unsplash.com/1000x802">
+                        <span>Image</span>
+                    </div>
+                    <div class="box">
+                        <img src="https://source.unsplash.com/1000x804">
+                        <span>Hover</span>
+                    </div>
+                    <div class="box">
+                        <img src="https://source.unsplash.com/1000x806">
+                        <span>Effect</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
 
 
 </main>
