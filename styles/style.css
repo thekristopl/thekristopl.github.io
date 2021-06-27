@@ -1,8 +1,23 @@
-body {
-    background-color: black !important;
-    color: white !important;
+:root {
+    --blue: #007bff;
 }
 
-.bg-gray {
-    background-color: #111111 !important;
+.card-gray {
+    position: relative;
+    background-color: #111111;
+    border-radius: 7px;
+}
+
+.about {
+    margin-top: 40px;
+    padding: 30px;
+}
+
+.about-text {
+    padding-top: 30px;
+}
+
+.links {
+    margin-top: 80px;
+    margin-bottom: 50px;
 }

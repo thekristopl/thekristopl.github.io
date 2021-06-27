@@ -7,12 +7,18 @@
     <meta name="author" content="Krzysztof Pałka">
     <title>Krzysztof Pałka</title>
 
+
     <!--  STYLES  -->
     <link href="styles/style.css" rel="stylesheet">
     <link href="styles/bootstrap_overwrite.css" rel="stylesheet">
     <link href="styles/particles.css" rel="stylesheet">
     <link href="styles/fonts.css" rel="stylesheet">
     <link href="styles/photo_gallery.css" rel="stylesheet">
+    <link href="styles/social_icons.css" rel="stylesheet">
+
+
+    <!--  FONT AWESOME ICONS  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
 
 
     <!--  BOOTSTRAP & JQUERY  -->
@@ -28,25 +34,28 @@
             integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
             crossorigin="anonymous"></script>
 </head>
-<body>
-<!-- BACKGROUND -->
+<body class="text-white">
+<!------------------------------------------------- BACKGROUND ------------------------------------------------->
 <div id="particles-js">
     <script src="resources/particles/particles.js"></script>
     <script src="resources/particles/app.js"></script>
 </div>
 
+<!------------------------------------------------- PAGE ------------------------------------------------->
+<div class="container">
 
-<!-- NAVIGATION -->
-<header class="container">
+
+    <!------------------------------------------------- NAVIGATION ------------------------------------------------->
     <nav class="navbar navbar-expand-lg navbar-dark">
         <a class="navbar-brand logo" href="#">Krzysztof Palka</a>
+
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
                 aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
 
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav ml-auto">
+            <ul class="navbar-nav ml-auto ">
                 <li class="nav-item">
                     <a class="nav-link" href="#">About</a>
                 </li>
@@ -68,51 +77,105 @@
     </nav>
 
 
-    <section class="py-5 text-center container">
-        <div class="row py-lg-5">
-            <div class="col-lg-6 col-md-8 mx-auto">
-                <p class="fw-lighter h5">Hi, I'm</p>
-                <p class="fw-light h1">Krzysztof Pałka</p>
-                <p class="lead">Something short and leading about the collection below its contents, the creator, etc.
-                    Make it short and sweet, but not too short so folks don’t simply skip over it entirely.
-                </p>
+    <!------------------------------------------------- JUMBOTRON ------------------------------------------------->
+    <div>
+        <div class="py-5 text-center container">
+            <div class="row py-lg-5">
+                <div class="col-lg-6 col-md-8 mx-auto">
+                    <p class="h5 text-muted lead">Hi, I'm</p>
+                    <p class="h1" style="font-weight: 1000;">Krzysztof Pałka</p>
+                    <p class="lead pt-4">
+                        junior software developer • coding tutor • DIY arduino creator<br>
+                        climber • roller skater • hobbist musician
+                    </p>
+                </div>
             </div>
         </div>
-    </section>
-</header>
-<main>
+    </div>
 
 
-    <div class="container">
+    <!------------------------------------------------- MAIN ------------------------------------------------->
+    <main>
+        <!------------------------------------------------- ABOUT ME ------------------------------------------------->
+        <div class="card-gray">
+            <div class="row about">
+                <div class="col-sm">
+                    <div class="card-body">
+                        <div class="gallery">
+                            <div class="box">
+                                <img src="resources/photos/n2.jpg">
+                            </div>
+                            <div class="box">
+                                <img src="resources/photos/n1.jpg">
+                            </div>
+                            <div class="box">
+                                <img src="resources/photos/n3.jpg">
+                            </div>
+                            <div class="box">
+                                <img src="resources/photos/n4.jpg">
+                            </div>
+                        </div>
+                    </div>
+                </div>
 
-        <div class="card bg-gray">
-            <div class="card-body">
-                <div class="gallery">
-                    <div class="box">
-                        <img src="resources/photos/n2.jpg">
-                    </div>
-                    <div class="box">
-                        <img src="resources/photos/n1.jpg">
-                    </div>
-                    <div class="box">
-                        <img src="resources/photos/n3.jpg">
-                    </div>
-                    <div class="box">
-                        <img src="resources/photos/n4.jpg">
-                    </div>
+
+                <div class="col-sm lead about-text">
+                    <h2>About me</h2><br>
+                    Jestem aspirującym programista, aktualnie studentem drugiego roku Teleinformatyki na AGH.
+                    Programuję od 6 lat, w tym czasie pracowałem nad wieloma własnymi projektami w różnych
+                    technologiach.
+                    W wolnych chwilach tworzę różne użyteczne rzeczy na Arduino.<br><br>
+                    Trenuję wspinaczkę skałkową i bouldering, jestem również sędzią wspinaczki sportowej PZA.
+                    Jeżdżę wyczynowo na rolkach uwielbiam wielodniowe wycieczki rowerowe.
+                    Wieczorami grywam na gitarze i pianinie.
+
+
                 </div>
             </div>
         </div>
 
+        <div class="links">
+            <div class="row justify-content-md-center">
+                <div class="col-md-auto">
+                    <a href="https://www.facebook.com/kristopalka/" target="_blank">
+                        <div class="social-icon"><i class="fab fa-facebook-f fa-3x"></i></div>
+                    </a>
+                </div>
+                <div class="col-md-auto">
+                    <a href="https://www.instagram.com/kristopalka/" target="_blank">
+                        <div class="social-icon"><i class="fab fa-instagram fa-3x"></i></div>
+                    </a>
+                </div>
+                <div class="col-md-auto">
+                    <a href="https://www.youtube.com/channel/UChtUdbhoF0l1UH1ga0t0VoA" target="_blank">
+                        <div class="social-icon"><i class="fab fa-youtube fa-3x"></i></div>
+                    </a>
+                </div>
+                <div class="col-md-auto">
+                    <a href="https://github.com/thekristopl" target="_blank">
+                        <div class="social-icon"><i class="fab fa-github fa-3x"></i></div>
+                    </a>
+                </div>
+                <div class="col-md-auto">
+                    <a href="https://www.linkedin.com/in/thekristopl/" target="_blank">
+                        <div class="social-icon"><i class="fab fa-linkedin fa-3x"></i></div>
+                    </a>
+                </div>
+            </div>
 
-    </div>
+
+        </div>
 
 
-</main>
+        .
+    </main>
+</div>
 </body>
 </html>
 
 
-<!-- SOURCES -->
-<!-- https://github.com/VincentGarreau/particles.js/ -->
-<!-- https://www.dafont.com/akanta.font -->
+<!-- SOURCES
+particles:          https://github.com/VincentGarreau/particles.js/
+font:               https://www.dafont.com/akanta.font
+photo gallery:      https://codepen.io/knyttneve/pen/YgZbLO
+-->

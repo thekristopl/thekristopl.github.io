@@ -1,0 +1,16 @@
+.social-icon {
+    color: white;
+    border: 1px solid gray;
+    height: 100px;
+    width: 100px;
+    text-align: center;
+    line-height: 120px;
+    cursor: pointer;
+
+    transition: 0.3s;
+}
+
+.social-icon:hover {
+    border-color: var(--blue);
+    color: var(--blue);
+}
