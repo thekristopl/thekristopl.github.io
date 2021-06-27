@@ -1,7 +1,9 @@
 .gallery {
     display: flex;
-    box-sizing: border-box;
+
     height: 50vh;
+    width: auto;
+    min-width: 45vh;
 }
 
 .box {

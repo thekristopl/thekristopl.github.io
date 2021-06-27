@@ -1,0 +1,21 @@
+.project {
+    transition: 1s;
+    cursor: pointer;
+    color: white;
+    text-decoration: none !important;
+}
+
+.project:hover {
+    color: white;
+    text-decoration: none !important;
+}
+
+.project p {
+    transition: 1s;
+    color: var(--blue);
+
+}
+
+.project:hover p {
+    color: white;
+}

@@ -7,10 +7,12 @@
     line-height: 120px;
     cursor: pointer;
 
-    transition: 0.3s;
+    transition: transform 0.6s ease-in-out;
+
 }
 
 .social-icon:hover {
     border-color: var(--blue);
     color: var(--blue);
+    transform: rotate(360deg);
 }

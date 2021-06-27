@@ -2,6 +2,16 @@
     --blue: #007bff;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
+
+.body {
+    color: white;
+    background-color: black;
+}
+
 .card-gray {
     position: relative;
     background-color: #111111;
@@ -13,11 +23,13 @@
     padding: 30px;
 }
 
-.about-text {
-    padding-top: 30px;
-}
 
 .links {
-    margin-top: 80px;
-    margin-bottom: 50px;
+    margin-top: 130px;
+    margin-bottom: 120px;
 }
+
+.gray-text {
+    color: #dddddd;
+}
+

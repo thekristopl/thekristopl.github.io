@@ -15,6 +15,7 @@
     <link href="styles/fonts.css" rel="stylesheet">
     <link href="styles/photo_gallery.css" rel="stylesheet">
     <link href="styles/social_icons.css" rel="stylesheet">
+    <link href="styles/projects.css" rel="stylesheet">
 
 
     <!--  FONT AWESOME ICONS  -->
@@ -34,7 +35,7 @@
             integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
             crossorigin="anonymous"></script>
 </head>
-<body class="text-white">
+<body class="body">
 <!------------------------------------------------- BACKGROUND ------------------------------------------------->
 <div id="particles-js">
     <script src="resources/particles/particles.js"></script>
@@ -57,19 +58,13 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ml-auto ">
                 <li class="nav-item">
-                    <a class="nav-link" href="#">About</a>
+                    <a class="nav-link" href="#about">About</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Links</a>
+                    <a class="nav-link" href="#links">Links</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Sports</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Passions</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Projects</a>
+                    <a class="nav-link" href="#projects">Projects</a>
                 </li>
             </ul>
 
@@ -97,36 +92,34 @@
     <!------------------------------------------------- MAIN ------------------------------------------------->
     <main>
         <!------------------------------------------------- ABOUT ME ------------------------------------------------->
-        <div class="card-gray">
-            <div class="row about">
-                <div class="col-sm">
-                    <div class="card-body">
-                        <div class="gallery">
-                            <div class="box">
-                                <img src="resources/photos/n2.jpg">
-                            </div>
-                            <div class="box">
-                                <img src="resources/photos/n1.jpg">
-                            </div>
-                            <div class="box">
-                                <img src="resources/photos/n3.jpg">
-                            </div>
-                            <div class="box">
-                                <img src="resources/photos/n4.jpg">
-                            </div>
+        <div id="about" class="card-gray">
+            <div class="row d-flex about">
+                <div class="col">
+                    <div class="card-body gallery">
+                        <div class="box">
+                            <img src="resources/photos/n2.jpg">
+                        </div>
+                        <div class="box">
+                            <img src="resources/photos/n1.jpg">
+                        </div>
+                        <div class="box">
+                            <img src="resources/photos/n3.jpg">
+                        </div>
+                        <div class="box">
+                            <img src="resources/photos/n4.jpg">
                         </div>
                     </div>
                 </div>
 
 
-                <div class="col-sm lead about-text">
+                <div class="col lead p-5">
                     <h2>About me</h2><br>
                     Jestem aspirującym programista, aktualnie studentem drugiego roku Teleinformatyki na AGH.
                     Programuję od 6 lat, w tym czasie pracowałem nad wieloma własnymi projektami w różnych
                     technologiach.
-                    W wolnych chwilach tworzę różne użyteczne rzeczy na Arduino.<br><br>
+                    W wolnych chwilach tworzę użyteczne rzeczy na Arduino.<br><br>
                     Trenuję wspinaczkę skałkową i bouldering, jestem również sędzią wspinaczki sportowej PZA.
-                    Jeżdżę wyczynowo na rolkach uwielbiam wielodniowe wycieczki rowerowe.
+                    Jeżdżę wyczynowo na rolkach oraz uwielbiam wielodniowe wycieczki rowerowe.
                     Wieczorami grywam na gitarze i pianinie.
 
 
@@ -134,40 +127,77 @@
             </div>
         </div>
 
-        <div class="links">
-            <div class="row justify-content-md-center">
-                <div class="col-md-auto">
-                    <a href="https://www.facebook.com/kristopalka/" target="_blank">
-                        <div class="social-icon"><i class="fab fa-facebook-f fa-3x"></i></div>
-                    </a>
-                </div>
-                <div class="col-md-auto">
-                    <a href="https://www.instagram.com/kristopalka/" target="_blank">
-                        <div class="social-icon"><i class="fab fa-instagram fa-3x"></i></div>
-                    </a>
-                </div>
-                <div class="col-md-auto">
-                    <a href="https://www.youtube.com/channel/UChtUdbhoF0l1UH1ga0t0VoA" target="_blank">
-                        <div class="social-icon"><i class="fab fa-youtube fa-3x"></i></div>
-                    </a>
-                </div>
-                <div class="col-md-auto">
-                    <a href="https://github.com/thekristopl" target="_blank">
-                        <div class="social-icon"><i class="fab fa-github fa-3x"></i></div>
-                    </a>
-                </div>
-                <div class="col-md-auto">
-                    <a href="https://www.linkedin.com/in/thekristopl/" target="_blank">
-                        <div class="social-icon"><i class="fab fa-linkedin fa-3x"></i></div>
-                    </a>
-                </div>
+        <div id="links" class="d-flex justify-content-center flex-wrap links">
+            <div class="p-2">
+                <a href="https://www.facebook.com/kristopalka/" target="_blank">
+                    <div class="social-icon"><i class="fab fa-facebook-f fa-3x"></i></div>
+                </a>
             </div>
-
-
+            <div class="p-2">
+                <a href="https://www.instagram.com/kristopalka/" target="_blank">
+                    <div class="social-icon"><i class="fab fa-instagram fa-3x"></i></div>
+                </a>
+            </div>
+            <div class="p-2">
+                <a href="https://www.youtube.com/channel/UChtUdbhoF0l1UH1ga0t0VoA" target="_blank">
+                    <div class="social-icon"><i class="fab fa-youtube fa-3x"></i></div>
+                </a>
+            </div>
+            <div class="p-2">
+                <a href="https://github.com/thekristopl" target="_blank">
+                    <div class="social-icon"><i class="fab fa-github fa-3x"></i></div>
+                </a>
+            </div>
+            <div class="p-2">
+                <a href="https://www.linkedin.com/in/thekristopl/" target="_blank">
+                    <div class="social-icon"><i class="fab fa-linkedin fa-3x"></i></div>
+                </a>
+            </div>
         </div>
 
 
-        .
+        <div id="projects" class="h1 text-center">
+            Projects
+        </div>
+        <div class="row">
+            <div class="col card-gray p-4 m-3">
+                <a href="https://github.com/thekristopl/Robotic-Arm" target="_blank">
+                    <div class="project">
+                        <i class="fas fa-robot fa-3x"></i>
+                        <p class="h4 mb-4 mt-4">Robotic arm</p>
+                        DIY robotic arm, based on Arduino, controllable in real time via dedicated .NET app
+                    </div>
+                </a>
+            </div>
+            <div class="col card-gray p-4 m-3">
+                <a href="https://www.youtube.com/watch?v=8PPOx_UDCVw" target="_blank">
+                    <div class="project">
+                        <i class="fas fa-broom fa-3x"></i>
+                        <p class="h4 mb-4 mt-4">Robotic arm</p>
+                        A presentation on the need of high quality code and explained how to make code clean (based on Robert Martin "Clean Code")
+                    </div>
+                </a>
+            </div>
+            <div class="w-100"></div>
+            <div class="col card-gray p-4 m-3">
+                <a href="https://github.com/thekristopl/Project-Simulation" target="_blank">
+                    <div class="project">
+                        <i class="fas fa-desktop fa-3x"></i>
+                        <p class="h4 mb-4 mt-4">Project "Simulation"</p>
+                        The program that allows you to build network topology, set up connection between devices and turn up routing algorithms.
+                    </div>
+                </a>
+            </div>
+            <div class="col card-gray p-4 m-3">
+                <a href="https://www.youtube.com/watch?v=CtUgB06oU54" target="_blank">
+                    <div class="project">
+                        <i class="fas fa-hand-rock fa-3x"></i>
+                        <p class="h4 mb-4 mt-4">Boulder on Cube</p>
+                        My adventure with one of boulder problems on Cube Baldy&Kawa in Kraków
+                    </div>
+                </a>
+            </div>
+        </div>
     </main>
 </div>
 </body>
