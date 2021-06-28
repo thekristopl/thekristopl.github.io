@@ -11,6 +11,8 @@ function loadPolish () {
     }).fail(function (){
         alert("Nie można załadować języka polskiego :/");
     });
+
+
 }
 
 function loadEnglish () {
@@ -21,8 +23,13 @@ function loadEnglish () {
     });
 }
 
-$('#switch-to-polish').on('click', loadPolish);
-$('#switch-to-english').on('click', loadEnglish);
+$('#polish-btn').on('click', function () {
+    loadPolish();
+});
+
+$('#english-btn').on('click', function (){
+    loadEnglish();
+});
 
 
 
