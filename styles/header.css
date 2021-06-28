@@ -5,6 +5,16 @@
 
 .nav-item {
     font-size: 20px !important;
+    margin-right: 10px;
+    white-space: nowrap;
+    width: min-content;
+
+}
+
+.nav-item:hover {
+    box-shadow: 0 3px 0 0 var(--accent);
+    border-radius: 6px;
+    background: transparent;
 }
 
 
