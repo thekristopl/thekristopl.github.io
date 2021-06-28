@@ -1,5 +1,6 @@
 :root {
     --accent: #007bff;
+    --background: #111111;
 }
 
 html {
@@ -15,7 +16,7 @@ body {
 
 .bg-gray {
     position: relative;
-    background-color: #111111;
+    background-color: var(--background);
 }
 
 .rounded-corners {

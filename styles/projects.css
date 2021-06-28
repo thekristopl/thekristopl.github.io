@@ -1,21 +1,30 @@
 .project {
-    transition: 1s;
+
     cursor: pointer;
     color: white;
-    text-decoration: none !important;
+    padding: 10px;
+
+    transition: 0.4s;
+    border: var(--background) solid 2px;
 }
 
 .project:hover {
-    color: white;
-    text-decoration: none !important;
+    border: var(--accent) solid 2px;
 }
 
-.project p {
-    transition: 1s;
-    color: var(--accent);
 
+
+.project p {
+    transition: 0.4s;
+    color: var(--accent);
 }
 
 .project:hover p {
     color: white;
+    text-decoration-line: none !important;
+}
+
+.no-decoration{
+    text-decoration: none !important;
+    color: white !important;
 }
