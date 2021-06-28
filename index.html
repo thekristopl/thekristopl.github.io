@@ -16,6 +16,7 @@
     <link href="styles/photo_gallery.css" rel="stylesheet">
     <link href="styles/social_icons.css" rel="stylesheet">
     <link href="styles/projects.css" rel="stylesheet">
+    <link href="styles/footer.css" rel="stylesheet">
 
 
     <!--  FONT AWESOME ICONS  -->
@@ -35,7 +36,7 @@
             integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
             crossorigin="anonymous"></script>
 </head>
-<body class="body">
+<body>
 <!------------------------------------------------- BACKGROUND ------------------------------------------------->
 <div id="particles-js">
     <script src="resources/particles/particles.js"></script>
@@ -92,7 +93,7 @@
     <!------------------------------------------------- MAIN ------------------------------------------------->
     <main>
         <!------------------------------------------------- ABOUT ME ------------------------------------------------->
-        <div id="about" class="card-gray">
+        <div id="about" class="bg-gray rounded-corners">
             <div class="row d-flex mt-5 mb-xxl-5">
                 <div class="col">
                     <div class="card-body gallery">
@@ -113,7 +114,8 @@
 
 
                 <div class="col lead p-5">
-                    <h2>About me</h2><br>
+                    <div class="section-font"><span class="underline">A</span>bout me</div>
+                    <br>
                     Jestem aspirującym programista, aktualnie studentem drugiego roku Teleinformatyki na AGH.
                     Programuję od 6 lat, w tym czasie pracowałem nad wieloma własnymi projektami w różnych
                     technologiach.
@@ -125,9 +127,9 @@
             </div>
         </div>
 
-
-        <div id="links" class="h1 text-center mb-4 mt-xl-5">
-            Social links
+        <!------------------------------------------------- LINKS ------------------------------------------------->
+        <div id="links" class="section-header section-font">
+            <span class="underline">S</span>ocial links
         </div>
         <div class="d-flex justify-content-center flex-wrap ">
             <div class="p-2">
@@ -157,12 +159,12 @@
             </div>
         </div>
 
-
-        <div id="projects" class="h1 text-center mt-5">
-            Projects
+        <!------------------------------------------------- PROJECTS ------------------------------------------------->
+        <div id="projects" class="section-header section-font">
+            <span class="underline">P</span>rojects
         </div>
         <div class="row">
-            <div class="col card-gray p-4 m-3">
+            <div class="col bg-gray rounded-corners p-4 m-3">
                 <a href="https://github.com/thekristopl/Robotic-Arm" target="_blank">
                     <div class="project">
                         <i class="fas fa-robot fa-3x"></i>
@@ -171,26 +173,28 @@
                     </div>
                 </a>
             </div>
-            <div class="col card-gray p-4 m-3">
+            <div class="col bg-gray rounded-corners p-4 m-3">
                 <a href="https://www.youtube.com/watch?v=8PPOx_UDCVw" target="_blank">
                     <div class="project">
                         <i class="fas fa-broom fa-3x"></i>
                         <p class="h4 mb-4 mt-4">Clean code in Java</p>
-                        A presentation on the need of high quality code and explained how to make code clean (based on Robert Martin "Clean Code")
+                        A presentation on the need of high quality code and explained how to make code clean (based on
+                        Robert Martin "Clean Code")
                     </div>
                 </a>
             </div>
             <div class="w-100"></div>
-            <div class="col card-gray p-4 m-3">
+            <div class="col bg-gray rounded-corners p-4 m-3">
                 <a href="https://github.com/thekristopl/Project-Simulation" target="_blank">
                     <div class="project">
                         <i class="fas fa-desktop fa-3x"></i>
                         <p class="h4 mb-4 mt-4">Project "Simulation"</p>
-                        The program that allows you to build network topology, set up connection between devices and turn up routing algorithms.
+                        The program that allows you to build network topology, set up connection between devices and
+                        turn up routing algorithms.
                     </div>
                 </a>
             </div>
-            <div class="col card-gray p-4 m-3">
+            <div class="col bg-gray rounded-corners p-4 m-3">
                 <a href="https://www.youtube.com/watch?v=CtUgB06oU54" target="_blank">
                     <div class="project">
                         <i class="fas fa-hand-rock fa-3x"></i>
@@ -201,7 +205,20 @@
             </div>
         </div>
     </main>
+
+
+
 </div>
+
+<!------------------------------------------------- FOOTER ------------------------------------------------->
+<footer class="bg-gray pb-4 footer">
+
+    <a href="#" class="arrow-to-up"><i class="fas fa-arrow-up fa-3x"></i></a>
+
+    <span class="footer-text">
+        <span class="text-muted">© 2020 </span>Krzysztof Pałka<span class="text-muted">. All rights reserved.</span>
+    </span>
+</footer>
 </body>
 </html>
 

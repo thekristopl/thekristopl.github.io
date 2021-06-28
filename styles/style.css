@@ -1,5 +1,5 @@
 :root {
-    --blue: #007bff;
+    --accent: #007bff;
 }
 
 html {
@@ -7,21 +7,36 @@ html {
 }
 
 
-.body {
-    color: white;
-    background-color: black;
+body {
+    color: white !important;
+    background-color: black !important;
 }
 
-.card-gray {
+
+.bg-gray {
     position: relative;
     background-color: #111111;
+}
+
+.rounded-corners {
     border-radius: 7px;
 }
 
 
-
-
-.gray-text {
-    color: #dddddd;
+.section-font {
+    font-weight: 100;
+    font-size: 34pt;
 }
 
+.underline {
+    box-shadow: 0 3px 0 0 var(--accent);
+    border-radius: 10px;
+    background: transparent;
+}
+
+.section-header {
+    text-align: center;
+
+    margin-top: 12vh;
+    margin-bottom: 3vh;
+}
