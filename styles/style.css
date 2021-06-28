@@ -9,13 +9,12 @@ html {
 
 
 body {
+    min-width: 600px;
     color: white !important;
     background-color: black !important;
 }
 
-
 .bg-gray {
-    position: relative;
     background-color: var(--background);
 }
 

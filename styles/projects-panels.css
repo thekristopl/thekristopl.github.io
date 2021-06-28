@@ -1,8 +1,6 @@
 .project {
-
     cursor: pointer;
     color: white;
-    padding: 10px;
 
     transition: 0.4s;
     border: var(--background) solid 2px;
@@ -13,7 +11,6 @@
 }
 
 
-
 .project p {
     transition: 0.4s;
     color: var(--accent);
@@ -22,6 +19,10 @@
 .project:hover p {
     color: white;
     text-decoration-line: none !important;
+}
+
+.project-content {
+    padding: 17px 10px;
 }
 
 .no-decoration{

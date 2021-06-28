@@ -3,24 +3,9 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="personal webpage">
+    <meta name="description" content="Krzysztof Pałka personal webpage">
     <meta name="author" content="Krzysztof Pałka">
     <title>Krzysztof Pałka</title>
-
-
-    <!--  STYLES  -->
-    <link href="styles/style.css" rel="stylesheet">
-    <link href="styles/bootstrap_overwrite.css" rel="stylesheet">
-    <link href="styles/particles.css" rel="stylesheet">
-    <link href="styles/fonts.css" rel="stylesheet">
-    <link href="styles/photo_gallery.css" rel="stylesheet">
-    <link href="styles/social_icons.css" rel="stylesheet">
-    <link href="styles/projects.css" rel="stylesheet">
-    <link href="styles/footer.css" rel="stylesheet">
-
-
-    <!--  FONT AWESOME ICONS  -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
 
 
     <!--  BOOTSTRAP & JQUERY  -->
@@ -35,183 +20,206 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
             integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
             crossorigin="anonymous"></script>
+
+
+    <!--  SCRIPTS  -->
+    <script src="scripts/scroll-header.js"></script>
+    <script src="scripts/language-changer.js"></script>
+
+
+    <!--  STYLES  -->
+    <link href="styles/style.css" rel="stylesheet">
+    <link href="styles/particles.css" rel="stylesheet">
+    <link href="styles/fonts.css" rel="stylesheet">
+    <link href="styles/photo_gallery.css" rel="stylesheet">
+    <link href="styles/social_icons.css" rel="stylesheet">
+    <link href="styles/projects-panels.css" rel="stylesheet">
+    <link href="styles/footer.css" rel="stylesheet">
+    <link href="styles/jumbotron.css" rel="stylesheet">
+    <link href="styles/header.css" rel="stylesheet">
+
+
+    <!--  FONT AWESOME ICONS  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+
 </head>
 <body>
-<!------------------------------------------------- BACKGROUND ------------------------------------------------->
+
+
+<!------------------------------------------------- PARTICLES ------------------------------------------------->
 <div id="particles-js">
     <script src="resources/particles/particles.js"></script>
     <script src="resources/particles/app.js"></script>
 </div>
 
-<!------------------------------------------------- PAGE ------------------------------------------------->
-<div class="container">
+
+<!------------------------------------------------- HEADER ------------------------------------------------->
+<header id="navigation-bar">
+    <div class="container">
+        <nav class="navbar-dark navbar navbar-expand-lg">
+            <a class="navbar-brand brand-name no-decoration" href="#">Krzysztof Palka</a>
+
+            <button class="navbar-toggler collapse-button" type="button" data-toggle="collapse"
+                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto ">
+                    <li class="nav-item">
+                        <a class="nav-link no-decoration" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link no-decoration" href="#links">Links</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link no-decoration" href="#projects">Projects</a>
+                    </li>
+                </ul>
+
+            </div>
+
+            <div>
+                <button type="button" id="switch-to-polish" class="btn btn-secondary">PL</button>
+                <button type="button" id="switch-to-english" class="btn btn-secondary">EN</button>
+            </div>
+        </nav>
+
+    </div>
+</header>
 
 
-    <!------------------------------------------------- NAVIGATION ------------------------------------------------->
-    <nav class="navbar navbar-expand-lg navbar-dark">
-        <a class="navbar-brand logo" href="#">Krzysztof Palka</a>
-
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav ml-auto ">
-                <li class="nav-item">
-                    <a class="nav-link" href="#about">About</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#links">Links</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#projects">Projects</a>
-                </li>
-            </ul>
-
-        </div>
-    </nav>
-
-
+<main class="container">
     <!------------------------------------------------- JUMBOTRON ------------------------------------------------->
-    <div>
-        <div class="py-5 text-center container">
-            <div class="row py-lg-5">
-                <div class="col-lg-6 col-md-8 mx-auto">
-                    <p class="h5 text-muted lead">Hi, I'm</p>
-                    <p class="h1" style="font-weight: 1000;">Krzysztof Pałka</p>
-                    <p class="lead pt-4">
-                        junior software developer • coding tutor • DIY arduino creator
-                        • climber • roller skater • hobbist musician
-                    </p>
+    <div class="jumbo">
+        <div class="h5 text-muted lead">Hi, I'm</div>
+        <div class="my-name">Krzysztof Pałka</div>
+        <div class="lead pt-4 performed-functions">
+            junior software developer • coding tutor • DIY arduino creator
+            • climber • roller skater • hobbist musician
+        </div>
+    </div>
+
+    <!------------------------------------------------- ABOUT ME ------------------------------------------------->
+    <div id="about" class="col bg-gray rounded-corners">
+        <div class="row d-flex mt-5">
+            <div class="col">
+                <div class="card-body gallery">
+                    <div class="box">
+                        <img src="resources/photos/n2.jpg">
+                    </div>
+                    <div class="box">
+                        <img src="resources/photos/n1.jpg">
+                    </div>
+                    <div class="box">
+                        <img src="resources/photos/n3.jpg">
+                    </div>
+                    <div class="box">
+                        <img src="resources/photos/n4.jpg">
+                    </div>
                 </div>
+            </div>
+
+
+            <div class="col lead p-5">
+                <div class="section-font"><span class="underline">A</span>bout me</div>
+                <br>
+                Jestem aspirującym programista, aktualnie studentem drugiego roku Teleinformatyki na AGH.
+                Programuję od 6 lat, w tym czasie pracowałem nad wieloma własnymi projektami w różnych
+                technologiach.
+                W wolnych chwilach tworzę użyteczne rzeczy na Arduino.<br><br>
+                Trenuję wspinaczkę skałkową i bouldering, jestem również sędzią wspinaczki sportowej PZA.
+                Jeżdżę wyczynowo na rolkach oraz uwielbiam wielodniowe wycieczki rowerowe.
+                Wieczorami grywam na gitarze i pianinie.
             </div>
         </div>
     </div>
 
+    <!------------------------------------------------- LINKS ------------------------------------------------->
+    <div id="links" class="section-header section-font">
+        <span class="underline">S</span>ocial links
+    </div>
+    <div class="d-flex justify-content-center flex-wrap ">
+        <div class="p-2">
+            <a href="https://www.facebook.com/kristopalka/" target="_blank">
+                <div class="social-icon"><i class="fab fa-facebook-f fa-3x"></i></div>
+            </a>
+        </div>
+        <div class="p-2">
+            <a href="https://www.instagram.com/kristopalka/" target="_blank">
+                <div class="social-icon"><i class="fab fa-instagram fa-3x"></i></div>
+            </a>
+        </div>
+        <div class="p-2">
+            <a href="https://www.youtube.com/channel/UChtUdbhoF0l1UH1ga0t0VoA" target="_blank">
+                <div class="social-icon"><i class="fab fa-youtube fa-3x"></i></div>
+            </a>
+        </div>
+        <div class="p-2">
+            <a href="https://github.com/thekristopl" target="_blank">
+                <div class="social-icon"><i class="fab fa-github fa-3x"></i></div>
+            </a>
+        </div>
+        <div class="p-2">
+            <a href="https://www.linkedin.com/in/thekristopl/" target="_blank">
+                <div class="social-icon"><i class="fab fa-linkedin fa-3x"></i></div>
+            </a>
+        </div>
+    </div>
 
-    <!------------------------------------------------- MAIN ------------------------------------------------->
-    <main>
-        <!------------------------------------------------- ABOUT ME ------------------------------------------------->
-        <div id="about" class="bg-gray rounded-corners">
-            <div class="row d-flex mt-5 mb-xxl-5">
-                <div class="col">
-                    <div class="card-body gallery">
-                        <div class="box">
-                            <img src="resources/photos/n2.jpg">
-                        </div>
-                        <div class="box">
-                            <img src="resources/photos/n1.jpg">
-                        </div>
-                        <div class="box">
-                            <img src="resources/photos/n3.jpg">
-                        </div>
-                        <div class="box">
-                            <img src="resources/photos/n4.jpg">
-                        </div>
-                    </div>
+    <!------------------------------------------------- PROJECTS ------------------------------------------------->
+    <div id="projects" class="section-header section-font">
+        <span class="underline">P</span>rojects
+    </div>
+    <div class="row">
+        <div class="col bg-gray rounded-corners m-3 project">
+            <a href="https://github.com/thekristopl/Robotic-Arm" class="no-decoration" target="_blank">
+                <div class="project-content">
+                    <i class="fas fa-robot fa-3x"></i>
+                    <p class="h4 mb-4 mt-4">Robotic arm</p>
+                    DIY robotic arm, based on Arduino, controllable in real time via dedicated .NET app
                 </div>
-
-
-                <div class="col lead p-5">
-                    <div class="section-font"><span class="underline">A</span>bout me</div>
-                    <br>
-                    Jestem aspirującym programista, aktualnie studentem drugiego roku Teleinformatyki na AGH.
-                    Programuję od 6 lat, w tym czasie pracowałem nad wieloma własnymi projektami w różnych
-                    technologiach.
-                    W wolnych chwilach tworzę użyteczne rzeczy na Arduino.<br><br>
-                    Trenuję wspinaczkę skałkową i bouldering, jestem również sędzią wspinaczki sportowej PZA.
-                    Jeżdżę wyczynowo na rolkach oraz uwielbiam wielodniowe wycieczki rowerowe.
-                    Wieczorami grywam na gitarze i pianinie.
+            </a>
+        </div>
+        <div class="col bg-gray rounded-corners m-3 project">
+            <a href="https://www.youtube.com/watch?v=8PPOx_UDCVw" class="no-decoration" target="_blank">
+                <div class="project-content">
+                    <i class="fas fa-broom fa-3x"></i>
+                    <p class="h4 mb-4 mt-4">Clean code in Java</p>
+                    A presentation on the need of high quality code and explained how to make code clean (based on
+                    Robert Martin "Clean Code")
                 </div>
-            </div>
+            </a>
         </div>
-
-        <!------------------------------------------------- LINKS ------------------------------------------------->
-        <div id="links" class="section-header section-font">
-            <span class="underline">S</span>ocial links
+        <div class="w-100"></div>
+        <div class="col bg-gray rounded-corners m-3 project">
+            <a href="https://github.com/thekristopl/Project-Simulation" class="no-decoration" target="_blank">
+                <div class="project-content">
+                    <i class="fas fa-desktop fa-3x"></i>
+                    <p class="h4 mb-4 mt-4">Project "Simulation"</p>
+                    The program that allows you to build network topology, set up connection between devices and
+                    turn up routing algorithms.
+                </div>
+            </a>
         </div>
-        <div class="d-flex justify-content-center flex-wrap ">
-            <div class="p-2">
-                <a href="https://www.facebook.com/kristopalka/" target="_blank">
-                    <div class="social-icon"><i class="fab fa-facebook-f fa-3x"></i></div>
-                </a>
-            </div>
-            <div class="p-2">
-                <a href="https://www.instagram.com/kristopalka/" target="_blank">
-                    <div class="social-icon"><i class="fab fa-instagram fa-3x"></i></div>
-                </a>
-            </div>
-            <div class="p-2">
-                <a href="https://www.youtube.com/channel/UChtUdbhoF0l1UH1ga0t0VoA" target="_blank">
-                    <div class="social-icon"><i class="fab fa-youtube fa-3x"></i></div>
-                </a>
-            </div>
-            <div class="p-2">
-                <a href="https://github.com/thekristopl" target="_blank">
-                    <div class="social-icon"><i class="fab fa-github fa-3x"></i></div>
-                </a>
-            </div>
-            <div class="p-2">
-                <a href="https://www.linkedin.com/in/thekristopl/" target="_blank">
-                    <div class="social-icon"><i class="fab fa-linkedin fa-3x"></i></div>
-                </a>
-            </div>
+        <div class="col bg-gray rounded-corners m-3 project">
+            <a href="https://www.youtube.com/watch?v=CtUgB06oU54" class="no-decoration" target="_blank">
+                <div class="project-content">
+                    <i class="fas fa-hand-rock fa-3x"></i>
+                    <p class="h4 mb-4 mt-4">Boulder on Cube</p>
+                    My adventure with one of boulder problems on Cube Baldy&Kawa in Kraków
+                </div>
+            </a>
         </div>
+    </div>
 
-        <!------------------------------------------------- PROJECTS ------------------------------------------------->
-        <div id="projects" class="section-header section-font">
-            <span class="underline">P</span>rojects
-        </div>
-        <div class="row">
-            <div class="col bg-gray rounded-corners m-3 project">
-                <a href="https://github.com/thekristopl/Robotic-Arm" class="no-decoration" target="_blank">
-                    <div>
-                        <i class="fas fa-robot fa-3x"></i>
-                        <p class="h4 mb-4 mt-4">Robotic arm</p>
-                        DIY robotic arm, based on Arduino, controllable in real time via dedicated .NET app
-                    </div>
-                </a>
-            </div>
-            <div class="col bg-gray rounded-corners m-3 project">
-                <a href="https://www.youtube.com/watch?v=8PPOx_UDCVw" class="no-decoration" target="_blank">
-                    <div>
-                        <i class="fas fa-broom fa-3x"></i>
-                        <p class="h4 mb-4 mt-4">Clean code in Java</p>
-                        A presentation on the need of high quality code and explained how to make code clean (based on
-                        Robert Martin "Clean Code")
-                    </div>
-                </a>
-            </div>
-            <div class="w-100"></div>
-            <div class="col bg-gray rounded-corners m-3 project">
-                <a href="https://github.com/thekristopl/Project-Simulation" class="no-decoration" target="_blank">
-                    <div>
-                        <i class="fas fa-desktop fa-3x"></i>
-                        <p class="h4 mb-4 mt-4">Project "Simulation"</p>
-                        The program that allows you to build network topology, set up connection between devices and
-                        turn up routing algorithms.
-                    </div>
-                </a>
-            </div>
-            <div class="col bg-gray rounded-corners m-3 project">
-                <a href="https://www.youtube.com/watch?v=CtUgB06oU54" class="no-decoration" target="_blank">
-                    <div>
-                        <i class="fas fa-hand-rock fa-3x"></i>
-                        <p class="h4 mb-4 mt-4">Boulder on Cube</p>
-                        My adventure with one of boulder problems on Cube Baldy&Kawa in Kraków
-                    </div>
-                </a>
-            </div>
-        </div>
-    </main>
-
-
-
-</div>
+</main>
 
 <!------------------------------------------------- FOOTER ------------------------------------------------->
-<footer class="bg-gray pb-4 footer">
+
+<footer class="bg-gray footer">
 
     <a href="#" class="arrow-to-up"><i class="fas fa-arrow-up fa-3x"></i></a>
 
@@ -219,6 +227,7 @@
         <span class="text-muted">© 2020 </span>Krzysztof Pałka<span class="text-muted">. All rights reserved.</span>
     </span>
 </footer>
+
 </body>
 </html>
 
