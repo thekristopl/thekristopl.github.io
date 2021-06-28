@@ -1,0 +1,41 @@
+{
+  "my-name": "Krzysztof Pałka",
+  "my-name-ascii": "Krzysztof Palka",
+
+
+  "nav-about-me": "O mnie",
+  "nav-links": "Linki",
+  "nav-projects": "Projekty",
+
+  "say-hi": "Cześć, jestem",
+  "performed-functions": "młodszy programista • nauczyciel programowania • twórca DIY • wspinacz • rolkarz • hobbystyczny muzyk",
+
+  "about-me-prefix": "O",
+  "about-me": " mnie",
+  "about-me-content-1": "Jestem aspirującym programista, aktualnie studentem drugiego roku Teleinformatyki na AGH. Programuję od 6 lat, w tym czasie pracowałem nad wieloma własnymi projektami w różnych technologiach. W wolnych chwilach tworzę użyteczne rzeczy na Arduino.",
+  "about-me-content-2": "Trenuję wspinaczkę skałkową i bouldering, jestem również sędzią wspinaczki sportowej PZA. Jeżdżę wyczynowo na rolkach oraz uwielbiam wielodniowe wycieczki rowerowe. Wieczorami grywam na gitarze i pianinie.",
+
+  "links-prefix": "L",
+  "links": "inki",
+
+  "projects-prefix": "P",
+  "projects": "rojekty",
+  "robotic-arm": "Robotyczne ramie",
+  "robotic-arm-content": "Robotyczne ramię DIY oparte na Arduino, kontrolowane w czasie rzeczywistym przez dedykowaną aplikację w .NET",
+  "clean-code": "Czysty kod w Javie",
+  "clean-code-content": "Prezentacja o potrzebie i procesie tworzenia kodu wysokiej jakości (na podstawie \"Czysty Kod\" Roberta MArtina)",
+  "project-simulation": "Projekt \"Simulation\"",
+  "project-simulation-content": "Symulator pozwalający budowę topologi, ustawianie połączeń między urządzeniami oraz włączenie algorytmów routingu",
+  "boulder": "Boulder na Cube",
+  "boulder-content": "Moja przygoda z jednym z problemów boulderowych na Cube Baldy&Kawa w Krakowie",
+
+
+  "all-rights": ". All rights reserved.",
+
+  "year": "2020"
+
+
+}
+
+
+

@@ -1,0 +1,41 @@
+{
+  "my-name": "Krzysztof Pałka",
+  "my-name-ascii": "Krzysztof Palka",
+
+
+  "nav-about-me": "About",
+  "nav-links": "Links",
+  "nav-projects": "Projects",
+
+  "say-hi": "Hi, I'm",
+  "performed-functions": "junior software developer • coding tutor • DIY arduino creator • climber • roller skater • hobbyist musician",
+
+  "about-me-prefix": "A",
+  "about-me": "bout me",
+  "about-me-content-1": "Jestem aspirującym programista, aktualnie studentem drugiego roku Teleinformatyki na AGH. Programuję od 6 lat, w tym czasie pracowałem nad wieloma własnymi projektami w różnych technologiach. W wolnych chwilach tworzę użyteczne rzeczy na Arduino.",
+  "about-me-content-2": "Trenuję wspinaczkę skałkową i bouldering, jestem również sędzią wspinaczki sportowej PZA. Jeżdżę wyczynowo na rolkach oraz uwielbiam wielodniowe wycieczki rowerowe. Wieczorami grywam na gitarze i pianinie.",
+
+  "links-prefix": "S",
+  "links": "ocial links",
+
+  "projects-prefix": "P",
+  "projects": "rojects",
+  "robotic-arm": "Robotic arm",
+  "robotic-arm-content": "DIY robotic arm, based on Arduino, controllable in real time via dedicated .NET app",
+  "clean-code": "Clean code in Java",
+  "clean-code-content": "A presentation on the need of high quality code and explained how to make code clean (based on Robert Martin \"Clean Code\")",
+  "project-simulation": "Project \"Simulation\"",
+  "project-simulation-content": "The program that allows you to build network topology, set up connection between devices and turn up routing algorithms.",
+  "boulder": "Boulder on Cube",
+  "boulder-content": "My adventure with one of boulder problems on Cube Baldy&Kawa in Kraków",
+
+
+  "all-rights": ". All rights reserved.",
+
+  "year": "2020"
+
+
+}
+
+
+

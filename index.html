@@ -11,9 +11,7 @@
     <!--  BOOTSTRAP & JQUERY  -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
           integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-            integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-            crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
             integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
             crossorigin="anonymous"></script>
@@ -22,9 +20,6 @@
             crossorigin="anonymous"></script>
 
 
-    <!--  SCRIPTS  -->
-    <script src="scripts/scroll-header.js"></script>
-    <script src="scripts/language-changer.js"></script>
 
 
     <!--  STYLES  -->
@@ -48,17 +43,14 @@
 
 
 <!------------------------------------------------- PARTICLES ------------------------------------------------->
-<div id="particles-js">
-    <script src="resources/particles/particles.js"></script>
-    <script src="resources/particles/app.js"></script>
-</div>
+<div id="particles-js"></div>
 
 
 <!------------------------------------------------- HEADER ------------------------------------------------->
 <header id="navigation-bar">
     <div class="container">
         <nav class="navbar-dark navbar navbar-expand-lg">
-            <a class="navbar-brand brand-name no-decoration" href="#">Krzysztof Palka</a>
+            <a class="navbar-brand brand-name no-decoration" href="#"><span class="text-my-name-ascii"></span></a>
 
             <button class="navbar-toggler collapse-button" type="button" data-toggle="collapse"
                     data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
@@ -69,13 +61,13 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ml-auto ">
                     <li class="nav-item">
-                        <a class="nav-link no-decoration" href="#about">About</a>
+                        <a class="nav-link no-decoration" href="#about"><span class="text-nav-about-me"></span></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link no-decoration" href="#links">Links</a>
+                        <a class="nav-link no-decoration" href="#links"><span class="text-nav-links"></span></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link no-decoration" href="#projects">Projects</a>
+                        <a class="nav-link no-decoration" href="#projects"><span class="text-nav-projects"></span></a>
                     </li>
                 </ul>
 
@@ -94,11 +86,10 @@
 <main class="container">
     <!------------------------------------------------- JUMBOTRON ------------------------------------------------->
     <div class="jumbo">
-        <div class="h5 text-muted lead">Hi, I'm</div>
-        <div class="my-name">Krzysztof Pałka</div>
+        <div class="h5 text-muted lead"><span class="text-say-hi"></span></div>
+        <div class="my-name"><span class="text-my-name"></span></div>
         <div class="lead pt-4 performed-functions">
-            junior software developer • coding tutor • DIY arduino creator
-            • climber • roller skater • hobbist musician
+            <span class="text-performed-functions"></span>
         </div>
     </div>
 
@@ -124,46 +115,44 @@
 
 
             <div class="col lead p-5">
-                <div class="section-font"><span class="underline">A</span>bout me</div>
+                <div class="section-font">
+                    <span class="underline"><span class="text-about-me-prefix"></span></span><span class="text-about-me"></span>
+                </div>
                 <br>
-                Jestem aspirującym programista, aktualnie studentem drugiego roku Teleinformatyki na AGH.
-                Programuję od 6 lat, w tym czasie pracowałem nad wieloma własnymi projektami w różnych
-                technologiach.
-                W wolnych chwilach tworzę użyteczne rzeczy na Arduino.<br><br>
-                Trenuję wspinaczkę skałkową i bouldering, jestem również sędzią wspinaczki sportowej PZA.
-                Jeżdżę wyczynowo na rolkach oraz uwielbiam wielodniowe wycieczki rowerowe.
-                Wieczorami grywam na gitarze i pianinie.
+                <span class="text-about-me-content-1"></span>
+                <br><br>
+                <span class="text-about-me-content-2"></span>
             </div>
         </div>
     </div>
 
     <!------------------------------------------------- LINKS ------------------------------------------------->
     <div id="links" class="section-header section-font">
-        <span class="underline">S</span>ocial links
+        <span class="underline"><span class="text-links-prefix"></span></span><span class="text-links"></span>
     </div>
     <div class="d-flex justify-content-center flex-wrap ">
         <div class="p-2">
-            <a href="https://www.facebook.com/kristopalka/" target="_blank">
+            <a class="link-facebook" target="_blank">
                 <div class="social-icon"><i class="fab fa-facebook-f fa-3x"></i></div>
             </a>
         </div>
         <div class="p-2">
-            <a href="https://www.instagram.com/kristopalka/" target="_blank">
+            <a class="link-instagram" target="_blank">
                 <div class="social-icon"><i class="fab fa-instagram fa-3x"></i></div>
             </a>
         </div>
         <div class="p-2">
-            <a href="https://www.youtube.com/channel/UChtUdbhoF0l1UH1ga0t0VoA" target="_blank">
+            <a class="link-youtube" target="_blank">
                 <div class="social-icon"><i class="fab fa-youtube fa-3x"></i></div>
             </a>
         </div>
         <div class="p-2">
-            <a href="https://github.com/thekristopl" target="_blank">
+            <a class="link-github" target="_blank">
                 <div class="social-icon"><i class="fab fa-github fa-3x"></i></div>
             </a>
         </div>
         <div class="p-2">
-            <a href="https://www.linkedin.com/in/thekristopl/" target="_blank">
+            <a class="link-linkedin" target="_blank">
                 <div class="social-icon"><i class="fab fa-linkedin fa-3x"></i></div>
             </a>
         </div>
@@ -171,45 +160,43 @@
 
     <!------------------------------------------------- PROJECTS ------------------------------------------------->
     <div id="projects" class="section-header section-font">
-        <span class="underline">P</span>rojects
+        <span class="underline"><span class="text-projects-prefix"></span></span><span class="text-projects"></span>
     </div>
     <div class="row">
         <div class="col bg-gray rounded-corners m-3 project">
-            <a href="https://github.com/thekristopl/Robotic-Arm" class="no-decoration" target="_blank">
+            <a class="no-decoration link-robotic-arm" target="_blank">
                 <div class="project-content">
                     <i class="fas fa-robot fa-3x"></i>
-                    <p class="h4 mb-4 mt-4">Robotic arm</p>
-                    DIY robotic arm, based on Arduino, controllable in real time via dedicated .NET app
+                    <p class="h4 mb-4 mt-4"><span class="text-robotic-arm"></span></p>
+                    <span class="text-robotic-arm-content"></span>
                 </div>
             </a>
         </div>
         <div class="col bg-gray rounded-corners m-3 project">
-            <a href="https://www.youtube.com/watch?v=8PPOx_UDCVw" class="no-decoration" target="_blank">
+            <a class="no-decoration link-clean-code" target="_blank">
                 <div class="project-content">
                     <i class="fas fa-broom fa-3x"></i>
-                    <p class="h4 mb-4 mt-4">Clean code in Java</p>
-                    A presentation on the need of high quality code and explained how to make code clean (based on
-                    Robert Martin "Clean Code")
+                    <p class="h4 mb-4 mt-4"><span class="text-clean-code"></span></p>
+                    <span class="text-clean-code-content"></span>
                 </div>
             </a>
         </div>
         <div class="w-100"></div>
         <div class="col bg-gray rounded-corners m-3 project">
-            <a href="https://github.com/thekristopl/Project-Simulation" class="no-decoration" target="_blank">
+            <a class="no-decoration link-project-simulation" target="_blank">
                 <div class="project-content">
                     <i class="fas fa-desktop fa-3x"></i>
-                    <p class="h4 mb-4 mt-4">Project "Simulation"</p>
-                    The program that allows you to build network topology, set up connection between devices and
-                    turn up routing algorithms.
+                    <p class="h4 mb-4 mt-4"><span class="text-project-simulation"></span></p>
+                    <span class="text-project-simulation-content"></span>
                 </div>
             </a>
         </div>
         <div class="col bg-gray rounded-corners m-3 project">
-            <a href="https://www.youtube.com/watch?v=CtUgB06oU54" class="no-decoration" target="_blank">
+            <a class="no-decoration link-red-boulder" target="_blank">
                 <div class="project-content">
                     <i class="fas fa-hand-rock fa-3x"></i>
-                    <p class="h4 mb-4 mt-4">Boulder on Cube</p>
-                    My adventure with one of boulder problems on Cube Baldy&Kawa in Kraków
+                    <p class="h4 mb-4 mt-4"><span class="text-boulder"></span></p>
+                    <span class="text-boulder-content"></span>
                 </div>
             </a>
         </div>
@@ -224,12 +211,22 @@
     <a href="#" class="arrow-to-up"><i class="fas fa-arrow-up fa-3x"></i></a>
 
     <span class="footer-text">
-        <span class="text-muted">© 2020 </span>Krzysztof Pałka<span class="text-muted">. All rights reserved.</span>
+        <span class="text-muted">© <span class="text-year"></span> </span><span class="text-my-name"></span><span class="text-muted"><span class="text-all-rights"></span></span>
     </span>
 </footer>
 
 </body>
 </html>
+
+<!--  SCRIPTS  -->
+<script src="resources/particles/particles.js"></script>
+<script src="resources/particles/app.js"></script>
+
+<script src="scripts/scroll-header.js"></script>
+<script src="scripts/load-languages.js"></script>
+<script src="scripts/load-links.js"></script>
+<script src="scripts/on-load.js"></script>
+
 
 
 <!-- SOURCES
