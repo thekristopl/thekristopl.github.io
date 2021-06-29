@@ -4,7 +4,7 @@
 
 
   "nav-about-me": "About",
-  "nav-links": "Links",
+  "nav-links": "Social media",
   "nav-projects": "Projects",
   "nav-sports": "Sports",
 
@@ -17,18 +17,33 @@
   "about-me-content-2": "Trenuję wspinaczkę skałkową i bouldering, jestem również sędzią wspinaczki sportowej PZA. Jeżdżę wyczynowo na rolkach oraz uwielbiam wielodniowe wycieczki rowerowe. Wieczorami grywam na gitarze i pianinie.",
 
   "links-prefix": "S",
-  "links": "ocial links",
+  "links": "ocial media",
 
   "projects-prefix": "P",
   "projects": "rojects",
-  "robotic-arm": "Robotic arm",
-  "robotic-arm-content": "DIY robotic arm, based on Arduino, controllable in real time via dedicated .NET app",
-  "clean-code": "Clean code in Java",
-  "clean-code-content": "A presentation on the need of high quality code and explained how to make code clean (based on Robert Martin \"Clean Code\")",
-  "project-simulation": "Project \"Simulation\"",
-  "project-simulation-content": "The program that allows you to build network topology, set up connection between devices and turn up routing algorithms.",
-  "boulder": "Boulder on Cube",
-  "boulder-content": "My adventure with one of boulder problems on Cube Baldy&Kawa in Kraków",
+  "project-1": "Robotic arm",
+  "project-1-content": "DIY robotic arm, based on Arduino, controllable in real time via dedicated .NET app",
+  "project-2": "Clean code in Java",
+  "project-2-content": "A presentation on the need of high quality code and explained how to make code clean (based on Robert Martin \"Clean Code\")",
+  "project-3": "Project \"Simulation\"",
+  "project-3-content": "The program that allows you to build network topology, set up connection between devices and turn up routing algorithms.",
+  "project-4": "Boulder on Cube",
+  "project-4-content": "My adventure with one of boulder problems on Cube Baldy&Kawa in Kraków",
+
+
+  "sports-prefix": "S",
+  "sports": "ports",
+
+  "sport-desc-1": "Max rollers<br>speed",
+  "sport-val-1": "36 km/h",
+  "sport-desc-2": "Hardest climbing route",
+  "sport-val-2": "VI.4",
+  "sport-desc-3": "Longest one-day cycling distance",
+  "sport-val-3": "200 km",
+  "sport-desc-4": "Max cycling<br>speed",
+  "sport-val-4": "74 km/h",
+  "sport-desc-5": "Best tempo<br>for 5 km",
+  "sport-val-5": "4:15/km",
 
 
   "all-rights": ". All rights reserved.",

@@ -4,7 +4,7 @@
 
 
   "nav-about-me": "O mnie",
-  "nav-links": "Linki",
+  "nav-links": "Media",
   "nav-projects": "Projekty",
   "nav-sports": "Sporty",
 
@@ -13,22 +13,40 @@
 
   "about-me-prefix": "O",
   "about-me": " mnie",
-  "about-me-content-1": "Jestem aspirującym programista, aktualnie studentem drugiego roku Teleinformatyki na AGH. Programuję od 6 lat, w tym czasie pracowałem nad wieloma własnymi projektami w różnych technologiach. W wolnych chwilach tworzę użyteczne rzeczy na Arduino.",
+  "about-me-content-1": "Jestem aspirującym programistą, aktualnie studentem drugiego roku Teleinformatyki na AGH. Programować zacząłem około 6 lat temu i w tym czasie miałem okazję pracować nad wieloma własnymi projektami w różnych technologiach. Najwięcej frajdy sprawia mi budowanie oraz programowanie różnych gadżetów opartych na Arduino.",
   "about-me-content-2": "Trenuję wspinaczkę skałkową i bouldering, jestem również sędzią wspinaczki sportowej PZA. Jeżdżę wyczynowo na rolkach oraz uwielbiam wielodniowe wycieczki rowerowe. Wieczorami grywam na gitarze i pianinie.",
 
-  "links-prefix": "L",
-  "links": "inki",
+  "links-prefix": "M",
+  "links": "edia społecznościowe",
 
   "projects-prefix": "P",
   "projects": "rojekty",
-  "robotic-arm": "Robotyczne ramie",
-  "robotic-arm-content": "Robotyczne ramię DIY oparte na Arduino, kontrolowane w czasie rzeczywistym przez dedykowaną aplikację w .NET",
-  "clean-code": "Czysty kod w Javie",
-  "clean-code-content": "Prezentacja o potrzebie i procesie tworzenia kodu wysokiej jakości (na podstawie \"Czysty Kod\" Roberta MArtina)",
-  "project-simulation": "Projekt \"Simulation\"",
-  "project-simulation-content": "Symulator pozwalający budowę topologi, ustawianie połączeń między urządzeniami oraz włączenie algorytmów routingu",
-  "boulder": "Boulder na Cube",
-  "boulder-content": "Moja przygoda z jednym z problemów boulderowych na Cube Baldy&Kawa w Krakowie",
+  "project-1": "Robotyczne ramie",
+  "project-1-content": "Robotyczne ramię DIY oparte na Arduino, kontrolowane w czasie rzeczywistym przez dedykowaną aplikację w .NET",
+  "project-2": "Czysty kod w Javie",
+  "project-2-content": "Prezentacja o potrzebie i procesie tworzenia kodu wysokiej jakości (na podstawie \"Czysty Kod\" Roberta MArtina)",
+  "project-3": "Projekt \"Simulation\"",
+  "project-3-content": "Symulator pozwalający budowę topologi, ustawianie połączeń między urządzeniami oraz włączenie algorytmów routingu",
+  "project-4": "Boulder na Cube",
+  "project-4-content": "Moja przygoda z jednym z problemów boulderowych na Cube Baldy&Kawa w Krakowie",
+
+
+  "sports-prefix": "S",
+  "sports": "porty",
+
+  "sports-content": "dfaksjdfashflkasjfhakjsdfljakajksdhfalksjdasjk",
+
+
+  "sport-desc-1": "Największa prędkość",
+  "sport-val-1": "36 km/h",
+  "sport-desc-2": "Najtrudniejsza droga",
+  "sport-val-2": "VI.4",
+  "sport-desc-3": "Największy dystans rowerowy",
+  "sport-val-3": "200 km",
+  "sport-desc-4": "Największa prędkość",
+  "sport-val-4": "74 km/h",
+  "sport-desc-5": "Najlepsze tempo<br>na 5 km",
+  "sport-val-5": "4:15/km",
 
 
   "all-rights": ". All rights reserved.",
