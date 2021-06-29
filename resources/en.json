@@ -13,9 +13,8 @@
 
   "about-me-prefix": "A",
   "about-me": "bout me",
-  "about-me-content-1": "Jestem aspirującym programista, aktualnie studentem drugiego roku Teleinformatyki na AGH. Programuję od 6 lat, w tym czasie pracowałem nad wieloma własnymi projektami w różnych technologiach. W wolnych chwilach tworzę użyteczne rzeczy na Arduino.",
-  "about-me-content-2": "Trenuję wspinaczkę skałkową i bouldering, jestem również sędzią wspinaczki sportowej PZA. Jeżdżę wyczynowo na rolkach oraz uwielbiam wielodniowe wycieczki rowerowe. Wieczorami grywam na gitarze i pianinie.",
-
+  "about-me-content-1": "I'm an aspiring software junior developer, currently a second-year student of Information and Communication technology. I've been programming for 6-years, working on many personal projects. Also, I always willing to give private lessons in computer science. But the most fun gives me building and programming various gadgets based on Arduino.",
+  "about-me-content-2": "After-hours I value so much doing all sorts of sports and spending time with friends. On a sunset, I love to play guitar or piano and sing.",
   "links-prefix": "S",
   "links": "ocial media",
 
@@ -33,6 +32,8 @@
 
   "sports-prefix": "S",
   "sports": "ports",
+
+  "sports-content": "I value so much any kind of sports and love to try new ones. But first of all, I train in rock climbing and bouldering for a long time. I'm also a judge of sports climbing in PZA. Recently I started much more roller skating, especially as an urban ride. During my vacation time, I like to go on a multi-day bike trip.",
 
   "sport-desc-1": "Max rollers<br>speed",
   "sport-val-1": "36 km/h",

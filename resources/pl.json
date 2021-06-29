@@ -13,8 +13,8 @@
 
   "about-me-prefix": "O",
   "about-me": " mnie",
-  "about-me-content-1": "Jestem aspirującym programistą, aktualnie studentem drugiego roku Teleinformatyki na AGH. Programować zacząłem około 6 lat temu i w tym czasie miałem okazję pracować nad wieloma własnymi projektami w różnych technologiach. Najwięcej frajdy sprawia mi budowanie oraz programowanie różnych gadżetów opartych na Arduino.",
-  "about-me-content-2": "Trenuję wspinaczkę skałkową i bouldering, jestem również sędzią wspinaczki sportowej PZA. Jeżdżę wyczynowo na rolkach oraz uwielbiam wielodniowe wycieczki rowerowe. Wieczorami grywam na gitarze i pianinie.",
+  "about-me-content-1": "Jestem aspirującym programistą, aktualnie studentem drugiego roku Teleinformatyki na AGH. Programuję od 6 lat temu, w tym czasie pracowałem nad wieloma własnymi projektami. Chętnie również udzielam korepectycji z informatyki. Najwięcej frajdy sprawia mi jednak budowanie oraz programowanie różnych gadżetów opartych na Arduino. ",
+  "about-me-content-2": "Po godzinach bardzo cenię sobie uprawienie wszelkiego rodzaju sportów oraz czas spędzony ze znajomymi. Wieczorami lubię pograć na gitarze albo pianinie.",
 
   "links-prefix": "M",
   "links": "edia społecznościowe",
@@ -34,8 +34,7 @@
   "sports-prefix": "S",
   "sports": "porty",
 
-  "sports-content": "dfaksjdfashflkasjfhakjsdfljakajksdhfalksjdasjk",
-
+  "sports-content": "Cenię wszelkiego rodzaju sporty i bardzo lubię próbowa nowych rzeczy. Przede wszystkim jednak od wielu lat trenuję wspinaczkę skałkową i bouldering. Jestem również sędzią wspinaczki sportowej PZA. Od niedawna jeżdżę wyczynowo na rolkach, głównie w formie urban skate. W trakcie wakacji lubię się wybrać na wielodniową wycieczkę rowerową.",
 
   "sport-desc-1": "Największa prędkość",
   "sport-val-1": "36 km/h",

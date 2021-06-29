@@ -31,6 +31,7 @@
     <link href="styles/jumbotron.css" rel="stylesheet">
     <link href="styles/header.css" rel="stylesheet">
     <link href="styles/achievement.css" rel="stylesheet">
+    <link href="styles/webpage-loader.css" rel="stylesheet">
 
 
     <!--  FONT AWESOME ICONS  -->
@@ -39,6 +40,10 @@
 
 </head>
 <body>
+<!------------------------------------------------- LOADER ------------------------------------------------->
+<div class="webpage-loader">
+    <div class="lds-dual-ring"></div>
+</div>
 
 
 <!------------------------------------------------- PARTICLES ------------------------------------------------->
@@ -60,7 +65,7 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ml-auto ">
                     <li class="nav-item">
-                        <a class="nav-link no-decoration" href="#about"><span class="text-nav-about-me"></span></a>
+                        <a class="nav-link no-decoration" href="#"><span class="text-nav-about-me"></span></a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link no-decoration" href="#links"><span class="text-nav-links"></span></a>
@@ -222,40 +227,40 @@
 
     <div class="d-flex justify-content-center flex-wrap">
 
-        <div class="p-2">
-            <div class="achievement bg-gray rounded-corners">
+        <div class="p-2 m-3 bg-gray rounded-corners">
+            <div class="achievement">
                 <div class="triangle-bottom"></div>     <div class="triangle-top"></div>
                 <div class="achievement-icon"><img src="resources/graphics/roller-skate.png" style="height: 50px; filter: invert(1);"></div>
                 <div class="caption"><span class="text-sport-desc-1"></span></div>
                 <div class="value"><span class="text-sport-val-1"></span></div>
             </div>
         </div>
-        <div class="p-2">
-            <div class="achievement bg-gray rounded-corners">
+        <div class="p-2 m-3 bg-gray rounded-corners">
+            <div class="achievement">
                 <div class="triangle-bottom"></div>     <div class="triangle-top"></div>
                 <div class="achievement-icon" style="margin-top: 10px"><img src="resources/graphics/climb.png" style="height: 63px; filter: invert(1);"></div>
                 <div class="caption"><span class="text-sport-desc-2"></span></div>
                 <div class="value"><span class="text-sport-val-2"></span></div>
             </div>
         </div>
-        <div class="p-2">
-            <div class="achievement bg-gray rounded-corners">
+        <div class="p-2 m-3 bg-gray rounded-corners">
+            <div class="achievement">
                 <div class="triangle-bottom"></div>     <div class="triangle-top"></div>
                 <div class="achievement-icon"><p class="fas fa-route fa-3x"></p></div>
                 <div class="caption"><span class="text-sport-desc-3"></span></div>
                 <div class="value"><span class="text-sport-val-3"></span></div>
             </div>
         </div>
-        <div class="p-2">
-            <div class="achievement bg-gray rounded-corners">
+        <div class="p-2 m-3 bg-gray rounded-corners">
+            <div class="achievement">
                 <div class="triangle-bottom"></div>     <div class="triangle-top"></div>
                 <div class="achievement-icon"><p class="fas fa-biking fa-3x"></p></div>
                 <div class="caption"><span class="text-sport-desc-4"></span></div>
                 <div class="value"><span class="text-sport-val-4"></span></div>
             </div>
         </div>
-        <div class="p-2">
-            <div class="achievement bg-gray rounded-corners">
+        <div class="p-2 m-3 bg-gray rounded-corners">
+            <div class="achievement">
                 <div class="triangle-bottom"></div>     <div class="triangle-top"></div>
                 <div class="achievement-icon"><p class="fas fa-running fa-3x"></p></div>
                 <div class="caption"><span class="text-sport-desc-5"></span></div>
@@ -285,6 +290,7 @@
 </html>
 
 <!--  SCRIPTS  -->
+<script src="scripts/loading-page.js"></script>
 <script src="resources/particles/particles.js"></script>
 <script src="resources/particles/app.js"></script>
 
