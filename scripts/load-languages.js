@@ -9,7 +9,8 @@ function loadPolish () {
     $.getJSON("resources/pl.json", function (json) {
         loadLanguage(json);
         $("html").attr('lang', 'pl');
-    }).fail(function (){
+    }).fail(function (x){
+        console.log(x);
         alert("Nie można załadować języka polskiego :/");
     });
 
@@ -21,6 +22,7 @@ function loadEnglish () {
         loadLanguage(json);
         $("html").attr('lang', 'en');
     }).fail(function (){
+        console.log(x);
         alert("Can not load english language :/");
     });
 }
