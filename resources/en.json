@@ -5,12 +5,12 @@
   "nav-sports": "Sports",
 
   "say-hi": "Hi, I'm",
-  "performed-functions": "junior software engeneer • coding tutor • DIY arduino creator • climber • roller skater • hobbyist musician",
+  "performed-functions": "Software Engeneer & DevOps • Climber • Hobbyist musician",
 
   "about-me-prefix": "A",
   "about-me": "bout me",
-  "about-me-content-1": "I'm an aspiring software engineer and devops, currently a fifth-year student of Information and Communication technology. I've been programming for 8 years, working on many personal projects. Also, I always willing to give private lessons in computer science. But the most fun gives me building and programming various gadgets based on Arduino.",
-  "about-me-content-2": "After-hours I value so much doing all sorts of sports, especially sport climbing. On a sunset, I love to play guitar or piano and sing.",
+  "about-me-content-1": "I'm an aspiring software engineer and devops, currently finishing my master's degree in Information and Communication Technology at AGH UST. I've been programming for 8 years, working on many personal projects. I am currently actively involved in the SAKWA Mountaineering Club",
+  "about-me-content-2": "After work, I highly value staying active, especially through sport climbing. In the evenings, I enjoy playing guitar and singing.",
   "links-prefix": "S",
   "links": "ocial media",
 
@@ -18,8 +18,8 @@
   "projects": "rojects",
   "project-1": "Robotic arm",
   "project-1-content": "DIY robotic arm, based on Arduino, controllable in real time via dedicated .NET app",
-  "project-2": "Clean code in Java",
-  "project-2-content": "A presentation on the need of high quality code and explained how to make code clean (based on Robert Martin \"Clean Code\")",
+  "project-2": "Scrabble Solver",
+  "project-2-content": "A mobile application that automatically scans the Scrabble board and displays the highest-scoring words.",
   "project-3": "TatraMap",
   "project-3-content": "Detailed 3D topographic map of the Tatra Mountains with avalanche (slope), topographic and orthophotomap layers",
   "project-4": "Boulder on Cube",

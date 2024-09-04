@@ -5,12 +5,12 @@
   "nav-sports": "Sporty",
 
   "say-hi": "Cześć, jestem",
-  "performed-functions": "młodszy programista • nauczyciel programowania • twórca DIY • wspinacz • rolkarz • hobbystyczny muzyk",
+  "performed-functions": "Inżynier Oprogramowania & DevOps • Wspinacz • Hobbystyczny muzyk",
 
   "about-me-prefix": "O",
   "about-me": " mnie",
-  "about-me-content-1": "Jestem programistą backend i devops, aktualnie studentem piątego roku Teleinformatyki na AGH. Programuję od 8 lat temu, w tym czasie pracowałem nad wieloma własnymi projektami. Chętnie również udzielam korepectycji z informatyki. Najwięcej frajdy sprawia mi jednak budowanie oraz programowanie różnych gadżetów opartych na Arduino. ",
-  "about-me-content-2": "Po godzinach bardzo cenię sobie uprawienie wszelkiego rodzaju sportów, szczególnie wspinaczkę sportową. Wieczorami lubię pograć na gitarze albo pianinie.",
+  "about-me-content-1": "Jestem programistą backend i devops, aktualnie kończę studia magisterskie na AGH. Programuję od 8 lat temu, w tym czasie pracowałem nad wieloma własnymi projektami. Aktualnie aktywnie działam w Klubie Wysokogórskim SAKWA",
+  "about-me-content-2": "W wolnym czasie bardzo cenię sobie sport, szczególnie wspinaczkę sportową. Wieczorami lubię pograć na gitarze i śpiewać.",
 
   "links-prefix": "M",
   "links": "edia społecznościowe",
@@ -19,8 +19,8 @@
   "projects": "rojekty",
   "project-1": "Robotyczne ramie",
   "project-1-content": "Robotyczne ramię DIY oparte na Arduino, kontrolowane w czasie rzeczywistym przez dedykowaną aplikację w .NET",
-  "project-2": "Czysty kod w Javie",
-  "project-2-content": "Prezentacja o potrzebie i procesie tworzenia kodu wysokiej jakości (na podstawie \"Czysty Kod\" Roberta MArtina)",
+  "project-2": "Scrabble Solver",
+  "project-2-content": "Aplikacja mobilna która automatycznie skanuje planszy Scrabble i wyświetla najlepiej punktowane słowa",
   "project-3": "TatraMap",
   "project-3-content": "Szczegółowa mapa topograficzna 3D Tatr z warstwą lawinową (nachylenia), topograficzną oraz ortofotomapą.",
   "project-4": "Boulder na Cube",
